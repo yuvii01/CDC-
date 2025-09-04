@@ -1,90 +1,75 @@
-🥾 Sneaker Full Stack Website (CDC-)
+# 🥾 Sneaker Full Stack Website (CDC-)
 
-A full-stack web application built with modern tools to showcase and manage sneakers. This project demonstrates frontend–backend integration, clean UI with Tailwind, and deployment with Vercel.
+A full-stack web application built with modern tools to showcase and manage sneakers.  
+This project demonstrates **frontend–backend integration**, **clean UI with Tailwind**, and **deployment with Vercel**.
 
-🚀 Live Demo
 
-👉 View Live Project
+## 🛠️ Tech Stack
 
-📂 Project Structure
-CDC-/
-│── backend/         # Server-side logic (APIs, DB connections, auth, etc.)
-│── frontend/        # Client-side app (React + Vite + Tailwind)
-│── node_modules/    # Dependencies
-│── package.json     # Project metadata + dependencies
-│── vite.config.js   # Vite configuration
-│── tailwind.config.js # Tailwind CSS setup
-│── postcss.config.js  # PostCSS setup
-│── README.md        # Project documentation
+### Frontend
+- React (with Vite)  
+- Tailwind CSS  
+- PostCSS  
 
-🛠️ Tech Stack
-Frontend
+### Backend
+- Node.js  
+- Express.js  
 
-React
- (with Vite)
+---
 
-Tailwind CSS
+## ⚡ Features
+- 🛒 Sneaker listings with clean UI  
+- 🔍 Browse products with a responsive design  
+- 📦 Backend APIs for sneaker data  
+- 🔑 User authentication (if implemented in backend)  
+- ☁️ Live deployment for easy access  
 
-PostCSS
+---
 
-Backend
+## 📦 Installation & Setup
 
-Node.js
+### 1️⃣ Clone the Repository
 
-Express.js
-
-Other Tools
-
-Vercel (for deployment)
-
-Git & GitHub (for version control)
-
-⚡ Features
-
-🛒 Sneaker listings with clean UI
-
-🔍 Browse products with a responsive design
-
-📦 Backend APIs for sneaker data
-
-🔑 User authentication (if implemented in backend)
-
-☁️ Live deployment for easy access
-
-📦 Installation & Setup
-1️⃣ Clone the repository
+```bash
 git clone https://github.com/yuvii01/CDC-.git
 cd CDC-
+```
 
-2️⃣ Install dependencies
+### 2️⃣ Install Dependencies
 
-For backend:
+**Backend**
 
+```
 cd backend
 npm install
+```
 
+**Frontend**
 
-For frontend:
-
+```
 cd ../frontend
 npm install
+```
 
-3️⃣ Run locally
+### 3️⃣ Run Locally
 
-Start backend:
+**Start backend:**
 
+```
 npm start
+```
 
+**Start frontend:**
 
-Start frontend:
-
+```
 npm run dev
+```
 
+Then open: http://localhost:5173 in your browser.
 
-Then open http://localhost:5173
- in your browser.
+---
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 Feel free to fork the repo and open a pull request.
